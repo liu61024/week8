@@ -24,8 +24,8 @@ function moveOutputPlugin() {
 
 export default defineConfig({
   // base 的寫法：
-  // base: '/week8/'
-  base: '/web-layout-training-vite/',
+  // base: '/Repository 的名稱/'
+  base: '/week8/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
