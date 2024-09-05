@@ -1,0 +1,12 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": //改這裡
+      map-merge(
+        map-get($utilities, "font-size"),//改這裡
+        (
+          responsive: true,
+        )
+      ),
+  )
+);

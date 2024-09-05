@@ -1,0 +1,41 @@
+.navbar-brand {
+    width: 125px;
+    @media(min-width: 992px) {
+        width: 200px;
+    }
+}
+
+.explore-lg-dropdown-menu{
+    width: 100%;
+    max-width: 863px;
+    &[data-bs-popper]{
+        left: 12%;
+    }
+}
+
+.dropdown-menu-1st{
+    width: 26%;
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+.dropdown-menu-2nd{
+    width: 26%;
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+.dropdown-menu-3rd{
+    width: 48%;
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+
+.sm-dropdown-menu-1st{
+    height: calc(100vh - 92px);
+    overflow-y: scroll;
+}
+
+.sm-dropdown-menu-2nd{ 
+    padding: 16px 24px;
+    width: 100%;
+    height: 100%;
+}
